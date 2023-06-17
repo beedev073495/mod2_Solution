@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  margin-top: 0px;
+}
+h1 {
+  text-align: center;
+}
+p {
+  clear: right;
+  margin: 5px;
+}
+
+#h1 {
+  background-color: aqua;
+  float: right;
+}
+#h2 {
+  background-color: chartreuse;
+  float: right;
+}
+#h3 {
+  background-color: darkorange;
+  float: right;
+}
+
+.row {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .col-lg {
+    width: 30%;
+    background: violet;
+    border: 1px solid black;
+    margin: 15px;
+    color: black;
+    float: left;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .tab {
+    width: auto;
+    height: 225px;
+    margin-bottom: 30px;
+  }
+  .col-md-1 {
+    float: left;
+    background-color: violet;
+    border: 1px solid black;
+    width: 48%;
+    margin: 1%;
+  }
+  .col-md-2 {
+    float: left;
+    background-color: violet;
+    border: 1px solid black;
+    width: 48%;
+    margin: 1%;
+  }
+  .col-md-3 {
+    background-color: violet;
+    border: 1px solid black;
+    width: 98%;
+    margin: 1%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-sm {
+    background-color: violet;
+    border: 1px solid black;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
